@@ -1,7 +1,7 @@
 ---
 applications:
-  - name: pal-tracker-sjlee5
-    path: build/libs/pal-tracker-sjlee5.jar
+  - name: pal-tracker
+    path: build/libs/pal-tracker.jar
     random-route: true
     env:
       WELCOME_MESSAGE: Hello from Cloud Foundry SJLEE5
