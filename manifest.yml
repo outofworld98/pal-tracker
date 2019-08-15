@@ -1,0 +1,8 @@
+---
+applications:
+  - name: pal-tracker-sjlee5
+    path: build/libs/pal-tracker-sjlee5.jar
+    random-route: true
+    env:
+      WELCOME_MESSAGE: Hello from Cloud Foundry
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
